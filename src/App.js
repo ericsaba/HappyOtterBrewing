@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import Preloader from './components/preloader'
+import HeaderArea from './components/headerArea'
+import Slider from './components/slider'
+import PopularItems from './components/popularItems'
+import About from './components/about'
+import Services from './components/services'
+import Video from './components/video'
+import Testimonials from './components/testimonials'
+import Instagram from './components/instagram'
+import FooterArea from './components/footerArea'
+import ScrollUp from './components/scrollUp'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Preloader></Preloader>
+      <header>
+        <HeaderArea></HeaderArea>
       </header>
+      <main>
+        <PopularItems></PopularItems>
+
+        <Services></Services>
+        <Testimonials></Testimonials>
+        <Instagram></Instagram>
+      </main>
+      <footer>
+        <FooterArea></FooterArea>
+      </footer>
+      <ScrollUp></ScrollUp>
     </div>
   );
 }
