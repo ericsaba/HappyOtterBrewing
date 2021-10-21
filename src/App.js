@@ -21,8 +21,6 @@ function App() {
       </header>
       <main>
         <PopularItems></PopularItems>
-
-        <Services></Services>
         <Testimonials></Testimonials>
         <Instagram></Instagram>
       </main>

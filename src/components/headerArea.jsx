@@ -17,7 +17,7 @@ export default class HeaderArea extends Component {
                   <nav>
                     <ul id="navigation">                                                                                          
                       <li><a href="index.html">Home</a></li>
-                      <li><a href="product.html">Product</a></li>
+                      {/*<li><a href="product.html">Product</a></li>
                       <li><a href="about.html">About</a></li>
                       <li><a href="#">Blog</a>
                         <ul className="submenu">
@@ -25,7 +25,7 @@ export default class HeaderArea extends Component {
                           <li><a href="blog_details.html">Blog Details</a></li>
                           <li><a href="elements.html">Element</a></li>
                         </ul>
-                      </li>
+                      </li>*/}
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </nav>
