@@ -26,7 +26,7 @@ export default class HeaderArea extends Component {
                           <li><a href="elements.html">Element</a></li>
                         </ul>
                       </li>*/}
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="mailto:happyotterbrewing@gmail.com">Contact</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -35,8 +35,7 @@ export default class HeaderArea extends Component {
               <div className="buttons">
                 <ul>
                   <li className="button-header">
-                    <a href="#" className="header-btn mr-25"> <i className="fas fa-phone-alt" /> 513 833 4906</a>
-                    <a href="#" className="btn header-btn2">Contact Us</a>
+                    <a href="mailto:happyotterbrewing@gmail.com" className="btn header-btn2">Save the otters</a>
                   </li>
                 </ul>
               </div>

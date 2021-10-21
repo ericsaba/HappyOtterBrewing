@@ -22,7 +22,6 @@ function App() {
       <main>
         <PopularItems></PopularItems>
         <Testimonials></Testimonials>
-        <Instagram></Instagram>
       </main>
       <footer>
         <FooterArea></FooterArea>

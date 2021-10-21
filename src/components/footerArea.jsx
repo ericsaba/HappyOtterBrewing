@@ -17,14 +17,12 @@ export default class FooterArea extends Component {
                     </div>
                     <div className="footer-tittle">
                       <div className="footer-pera">
-                        <p>Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
+                        <p>This one's for the otters. If we don't keep them happy, who will?</p>
                       </div>
                       {/* social */}
                       <div className="footer-social">
-                        <a href="#"><i className="fab fa-twitter-square" /></a>
-                        <a href="https://bit.ly/sai4ull"><i className="fab fa-facebook-square" /></a>
-                        <a href="#"><i className="fab fa-linkedin" /></a>
-                        <a href="#"><i className="fab fa-pinterest-square" /></a>
+                        <a href="https://www.instagram.com/happyotterbrewing/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram" /></a>
+                        <a href="https://untappd.com/HappyOtterBrewingCo" target="_blank" rel="noopener noreferrer"><i className="fab fa-untappd" /></a>
                       </div>
                     </div>
                   </div>
@@ -36,10 +34,6 @@ export default class FooterArea extends Component {
                     <h4>Quick Links</h4>
                     <ul>
                       <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
                     </ul>
                   </div>
                 </div>
@@ -47,12 +41,10 @@ export default class FooterArea extends Component {
               <div className="col-xl-2 col-lg-2 col-md-8 col-sm-6">
                 <div className="single-footer-caption mb-50">
                   <div className="footer-tittle">
-                    <h4>Cakes</h4>
+                    <h4>Beers</h4>
                     <ul>
-                      <li><a href="#">Blackforest</a></li>
-                      <li><a href="#">Bodhubon</a></li>
-                      <li><a href="#">Rongdhonu</a></li>
-                      <li><a href="#">Meghrong</a></li>
+                      <li><a href="#">Lo and Behold Porter</a></li>
+                      <li><a href="#">Ope! Midwest IPA</a></li>
                     </ul>
                   </div>
                 </div>
@@ -61,11 +53,9 @@ export default class FooterArea extends Component {
                 <div className="single-footer-caption mb-50">
                   <div className="footer-tittle mb-20">
                     <h4>Contact Us</h4>
-                    <p>76/A, Green Lane, Dhanmondi, NYC</p>
+                    <p>happyotterbrewing@gmail.com</p>
                   </div>
-                  <ul className="mb-20">
-                    <li className="number"><a href="#">+10 (78) 738-9083</a></li>
-                  </ul>
+
                 </div>
               </div>
             </div>

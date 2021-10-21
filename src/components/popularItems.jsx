@@ -4,7 +4,7 @@ export default class PopularItems extends Component {
   render() {
     return (
 
-      <section className="popular-items section-padding40">
+      <section className="popular-items section-padding40 bkg-img">
         <div className="container">
           {/* Section Tittle */}
           <div className="row justify-content-center">
@@ -20,7 +20,7 @@ export default class PopularItems extends Component {
 	            <div className="col-xl-6 col-lg-6 col-md-8 col-sm-8">
 	              <div className="single-items text-center mb-30">
 	                <div className="items-top">
-	                  <img src="assets/img/gallery/items1.png" alt="" />
+	                  <img src="assets/img/logo/loder.png" alt="" />
 	                </div>
 	                <div className="items-bottom">
 	                  <h4><a href="#">Lo and Behold Porter </a></h4>
@@ -32,7 +32,7 @@ export default class PopularItems extends Component {
 	            <div className="col-xl-6 col-lg-6 col-md-8 col-sm-8">
 	              <div className="single-items text-center mb-30">
 	                <div className="items-top">
-	                  <img src="assets/img/gallery/items2.png" alt="" />
+	                  <img src="assets/img/logo/loder.png" alt="" />
 	                </div>
 	                <div className="items-bottom">
 	                  <h4><a href="#">Ope! Midwest IPA</a></h4>
