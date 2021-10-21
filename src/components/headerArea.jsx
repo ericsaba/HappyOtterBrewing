@@ -35,7 +35,7 @@ export default class HeaderArea extends Component {
               <div className="buttons">
                 <ul>
                   <li className="button-header">
-                    <a href="mailto:happyotterbrewing@gmail.com" className="btn header-btn2">Save the otters</a>
+                    <a href="https://preserve.nature.org/page/80429/donate/1" target="_blank" rel="noopener noreferrer" className="btn header-btn2">Save the otters</a>
                   </li>
                 </ul>
               </div>
