@@ -4,7 +4,7 @@ export default class BeersPage extends Component {
   render() {
     return (
       <main>
-        <h2>Beers</h2>
+        <h2>Coming soon!</h2>
       </main>
     );
   }

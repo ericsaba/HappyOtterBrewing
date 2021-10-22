@@ -32,7 +32,13 @@ function App() {
                       <li> <Link to="/">Home</Link> </li>
                       <li> <Link to="/beers">Our Beers</Link> </li>
                       <li> <Link to="/merch">Merch</Link> </li>
-                      <li> <Link to="/donate">Save the Otters</Link> </li>                                                                              
+                      <li> <a href="/">Save the Otters</a>
+                          <ul className="submenu">
+                              <li><a href="https://donate.edf.org/give/371702/" target="_blank" rel="noopener noreferrer" >Enviornmental Defense Fund</a></li>
+                              <li><a href="https://act.nrdc.org/donate/donate-monthly" target="_blank" rel="noopener noreferrer" >National Resources Defense Council</a></li>
+                              <li><a href="https://preserve.nature.org/page/80429/donate/1" target="_blank" rel="noopener noreferrer" >The Nature Conservancy</a></li>
+                          </ul>
+                      </li>                                                                              
                       <li><a href="mailto:happyotterbrewing@gmail.com">Contact</a></li>
                     </ul>
                   </nav>
@@ -52,7 +58,6 @@ function App() {
           <Route exact path="/" component={Homepage}/>
           <Route path="/beers" component={BeersPage}/>
           <Route path="/merch" component={MerchPage}/>
-          <Route path="/donate" component={DonatePage}/>
           <Route path="/pagenotfound" component={PageNotFound}/>
           <Redirect to="/pagenotfound"/>
         </Switch>

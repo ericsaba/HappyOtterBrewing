@@ -15,7 +15,16 @@
 }
 
 .header-area .main-header .main-menu ul ul.submenu {
-    background: var(--hob-main-color);
+    background: var(--hop-light-background);
+    width: 200px;
+}
+
+.header-area .main-header .main-menu ul ul.submenu li a {
+    color: black;
+}
+
+.header-area .main-header .main-menu ul ul.submenu>li>a:hover{
+    color: var(--hob-main-color);
 }
 
 .header-btn {
