@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 export default class HeaderArea extends Component {
   render() {
@@ -15,9 +16,13 @@ export default class HeaderArea extends Component {
                 {/* Main-menu */}
                 <div className="main-menu d-none d-lg-block">
                   <nav>
-                    <ul id="navigation">                                                                                          
-                      <li><a href="index.html">Home</a></li>
-                      {/*<li><a href="product.html">Product</a></li>
+                    <ul id="navigation">            
+                      <li> <Link to="/">Home</Link> </li>
+                      <li> <Link to="/beers">Our Beers</Link> </li>
+                      <li> <Link to="/merch">Merch</Link> </li>
+                      <li> <Link to="/donate">Save the Otters</Link> </li>                                                                              
+                      {/*<li><a href="index.html">Home</a></li>
+                      <li><a href="product.html">Product</a></li>
                       <li><a href="about.html">About</a></li>
                       <li><a href="#">Blog</a>
                         <ul className="submenu">
@@ -31,14 +36,14 @@ export default class HeaderArea extends Component {
                   </nav>
                 </div>
               </div>     
-              {/* Button */}
+              {/* Button 
               <div className="buttons">
                 <ul>
                   <li className="button-header">
                     <a href="https://preserve.nature.org/page/80429/donate/1" target="_blank" rel="noopener noreferrer" className="btn header-btn2">Save the otters</a>
                   </li>
                 </ul>
-              </div>
+              </div>*/}
             </div>
             {/* Mobile Menu */}
             <div className="col-12">

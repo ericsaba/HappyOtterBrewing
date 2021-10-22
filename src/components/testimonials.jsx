@@ -76,6 +76,45 @@ export default class Testimonials extends Component {
                     </div>
                   </div>
                 </div>
+                <div className="client-caption">
+                  <p>"Been a follower since the OG 'Hank's Hefe' and this beer is just scrumptious"</p>
+                  {/* founder */}
+                  <div className="testimonial-founder d-flex align-items-center mt-30">
+                    <div className="founder-img">
+                      <img className="testi-pic" src="assets/img/testimonials/sam.jpeg" alt="" />
+                    </div>
+                    <div className="founder-text">
+                      <span>Sam</span>
+                      <p>Content Creator</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="client-caption">
+                  <p>"Hello. Could you plaese ship me a Back to New Braunfels Texas Kolch please"</p>
+                  {/* founder */}
+                  <div className="testimonial-founder d-flex align-items-center mt-30">
+                    <div className="founder-img">
+                      <img className="testi-pic" src="assets/img/testimonials/tori.jpeg" alt="" />
+                    </div>
+                    <div className="founder-text">
+                      <span>Tori</span>
+                      <p>PhD in Malty Goodness</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="client-caption">
+                  <p>"Simultaneously crushable yet also boozey enough to get you loaded!"</p>
+                  {/* founder */}
+                  <div className="testimonial-founder d-flex align-items-center mt-30">
+                    <div className="founder-img">
+                      <img className="testi-pic" src="assets/img/testimonials/spencer.jpeg" alt="" />
+                    </div>
+                    <div className="founder-text">
+                      <span>Spencer</span>
+                      <p>Beer enthusiast</p>
+                    </div>
+                  </div>
+                </div>
 	        </OwlCarousel> 
           </div>
         </div>
