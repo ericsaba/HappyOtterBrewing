@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 export default class FooterArea extends Component {
   render() {
@@ -33,7 +34,10 @@ export default class FooterArea extends Component {
                   <div className="footer-tittle">
                     <h4>Quick Links</h4>
                     <ul>
-                      <li><a href="#">Home</a></li>
+                      <li><Link to="/">Home</Link></li>
+                      <li> <Link to="/beers">Our Beers</Link> </li>
+                      <li> <Link to="/merch">Merch</Link> </li>
+                      <li> <Link to="/donate">Save the Otters</Link> </li> 
                     </ul>
                   </div>
                 </div>
@@ -43,8 +47,8 @@ export default class FooterArea extends Component {
                   <div className="footer-tittle">
                     <h4>Beers</h4>
                     <ul>
-                      <li><a href="#">Lo and Behold Porter</a></li>
-                      <li><a href="#">Ope! Midwest IPA</a></li>
+                      <li>Lo and Behold Porter</li>
+                      <li>Ope! Midwest IPA</li>
                     </ul>
                   </div>
                 </div>

@@ -33,7 +33,7 @@ export default class PopularItems extends Component {
 	            <div className="col-xl-6 col-lg-6 col-md-8 col-sm-8">
 	              <div className="single-items text-center mb-30">
 	                <div className="items-top">
-	                  <img src="assets/img/logo/loder.png" alt="" />
+	                  <img src="assets/img/gallery/ope_ipa.jpg" alt="" />
 	                </div>
 	                <div className="items-bottom">
 	                  <h4><a href="#">Ope! Midwest IPA</a></h4>

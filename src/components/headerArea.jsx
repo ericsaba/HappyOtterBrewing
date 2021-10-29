@@ -20,7 +20,7 @@ export default class HeaderArea extends Component {
                       <li> <Link to="/">Home</Link> </li>
                       <li> <Link to="/beers">Our Beers</Link> </li>
                       <li> <Link to="/merch">Merch</Link> </li>
-                      <li> <Link to="/donate">Save the Otters</Link> </li>                                                                              
+                      <li> <Link to="/donate">Love the Otters</Link> </li>                                                                              
                       {/*<li><a href="index.html">Home</a></li>
                       <li><a href="product.html">Product</a></li>
                       <li><a href="about.html">About</a></li>
