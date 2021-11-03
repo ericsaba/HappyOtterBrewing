@@ -10,12 +10,15 @@ import MerchPage from './components/merchPage'
 import DonatePage from './components/donatePage'
 import PageNotFound from './components/pageNotFound'
 
+import React from 'react';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { Link, Route, Switch, Redirect } from 'react-router-dom'
 
 function App() {
   return (
+    
     <div className="App">
-      <Preloader></Preloader>
+      {/*<Preloader />*/}
       <header>
         <div className="header-area">
         <div className="main-header header-sticky">
@@ -66,8 +69,9 @@ function App() {
         <FooterArea></FooterArea>
       </footer>
       <ScrollUp></ScrollUp>
+      <AmplifySignOut/>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);

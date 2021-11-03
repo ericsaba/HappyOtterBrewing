@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifyeedd31eb8de64-staging-180619",
       "StackId": "arn:aws:cloudformation:us-east-2:082302342183:stack/amplify-amplifyeedd31eb8de64-staging-180619/6dabffb0-31d0-11ec-b5c4-0240995231be",
       "AmplifyAppId": "dz663f24hrhv"
+    },
+    "categories": {
+      "auth": {
+        "happyotterbrewing22aee374": {}
+      }
     }
   }
 }
