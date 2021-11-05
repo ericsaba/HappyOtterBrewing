@@ -1,0 +1,7 @@
+type Review @model {
+  id: ID!
+  reviewer: String!
+  review_description: String
+  reviewer_title: String
+  image: String
+}

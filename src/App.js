@@ -69,7 +69,7 @@ function App() {
         <FooterArea></FooterArea>
       </footer>
       <ScrollUp></ScrollUp>
-      <AmplifySignOut/>
+      {/*<AmplifySignOut/>*/}
     </div>
   );
 }

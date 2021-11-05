@@ -1,6 +1,6 @@
 {
     "identityPoolName": "happyotterbrewing22aee374_identitypool_22aee374",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "happyo22aee374",
     "userPoolName": "happyotterbrewing22aee374_userpool_22aee374",
     "autoVerifiedAttributes": [
