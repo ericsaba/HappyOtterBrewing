@@ -10,6 +10,23 @@ import { createReview as createReviewMutation, deleteReview as deleteReviewMutat
 
 const initialFormState = { reviewer: '', review_description: '', reviewer_title: '' }
 
+const owlOptions = {
+  margin: 0,
+  responsiveClass: true,
+  dots: false,
+  autoplay: true,
+  loop: true,
+  smartSpeed: 1000,
+  responsive: {
+    0 : {
+      items: 1,
+    },
+    1000 : {
+      items : 3
+    }
+  },
+};
+
 function Testimonials() {
   const [reviews, setReviews] = useState([]);
   const [formData, setFormData] = useState(initialFormState);
@@ -71,7 +88,7 @@ function Testimonials() {
         <div className="row justify-content-center">
           {/*check if reviews exists, and if so, render owlcarousel*/}
           {reviews.length && (
-          	<OwlCarousel items={3}  className="owl-theme" margin={0} autoplay={true} loop>  
+          	<OwlCarousel className="owl-theme" {...owlOptions} >  
                 {reviews.map(review => (
                   <div className="client-caption" key={review.id || review.reviewer}>
                     <p>{review.review_description}</p>
