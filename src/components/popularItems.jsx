@@ -4,7 +4,7 @@ import { Parallax, Background } from "react-parallax";
 export default class PopularItems extends Component {
   render() {
     return (
-	  <Parallax blur={0} bgImage="assets/img/gallery/background.jpeg" bgImageAlt="" strength={100}>
+	  <Parallax blur={0} bgImage="assets/img/gallery/background.jpeg" bgImageAlt="" strength={200} bgImageStyle={{'object-fit' : 'cover'}}>
       <section className="popular-items section-padding40 bkg-img">
         <div className="container">
           {/* Section Tittle */}
@@ -25,7 +25,7 @@ export default class PopularItems extends Component {
 	                </div>
 	                <div className="items-bottom">
 	                  <h4><a href="#">Lo and Behold Porter </a></h4>
-	                  <p>Alas! The porter the people have been waiting for has arrived. Let him take your bags while you dive into the depths of winter knowing a strong, dark porter (this beer, but also a man) is waiting for you while you by the fire.</p>
+	                  <p>Alas! The porter the people have been waiting for has arrived. Let him take your bags while you dive into the depths of winter knowing a strong, dark porter (this beer, but also a man) is waiting for you while you warm up by the fire.</p>
 	                  <a href="https://untappd.com/b/happy-otter-brewing-co-lo-and-behold-porter/4555904" target="_blank" rel="noopener noreferrer" className="btn order-btn">Rate on Untappd</a>
 	                </div>
 	              </div>
