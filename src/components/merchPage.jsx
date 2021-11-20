@@ -58,8 +58,12 @@ export default function MerchPage(){
         }
       }
     },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
     "text": {
-      "button": "Add to cart"
+      "button": "View product"
     },
     "googleFonts": [
       "Open Sans"
@@ -125,6 +129,7 @@ export default function MerchPage(){
       "total": "Subtotal",
       "button": "Checkout"
     },
+    "popup":false,
     "googleFonts": [
       "Open Sans"
     ]
