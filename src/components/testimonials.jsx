@@ -33,7 +33,7 @@ function Testimonials() {
   const [reviews, setReviews] = useState([]);
   const [formData, setFormData] = useState(initialFormState);
 
-  useEffect(() => {
+  useEffect(() => { 
     fetchReviews();
   }, []);
 
@@ -79,7 +79,7 @@ function Testimonials() {
     <section className="client-say">
       <div className="container">
         {/* Section Tittle */}
-        <div className="row justify-content-center">
+        <div className="row justify-content-center"> 
           <div className="col-xl-6 col-lg-8 col-md-10 col-sm-10">
             <div className="section-tittle text-center">
               <span>Testimonial</span>

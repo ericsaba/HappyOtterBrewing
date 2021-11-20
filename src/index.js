@@ -6,7 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import Amplify from 'aws-amplify';
 import config from './aws-exports';
+import Client from 'shopify-buy';
 Amplify.configure(config);
+
+const client = Client.buildClient({    storefrontAccessToken: 'c8211bcc87339f7539eecfef914310e3',    domain: 'happy-otter-brewing.myshopify.com'});
 
 ReactDOM.render(
   <BrowserRouter>
