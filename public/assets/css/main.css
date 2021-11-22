@@ -6,24 +6,51 @@
     --hop-shadow-color: #2d18a057;
 }
 
-.header-area .main-header .main-menu ul li a:hover {
+.bg-light {
+    background-color: white!important;
+}
+
+.header-area a {
+    color: rgba(0,0,0,.9);
+    font-family: "Quicksand",sans-serif;
+    padding-right: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+}
+
+.dropdown-item {
+    color: black;
+    font-size: 13px;
+}
+
+.dropdown-item:active {
+    background-color: var(--hob-main-color);
+}
+
+.header-area img {
+    padding-right: 10px;
+}
+
+.header-area .main-header .main-menu a:hover {
     color: var(--hob-main-color);
 }
 
-.header-area .main-header .main-menu ul li a::after {
+.header-area .main-header .main-menu a::after {
     background: var(--hob-main-color);
 }
 
-.header-area .main-header .main-menu ul ul.submenu {
+.header-area .main-header .main-menu .submenu {
     background: var(--hop-light-background);
     width: 200px;
 }
 
-.header-area .main-header .main-menu ul ul.submenu li a {
+.header-area .main-header .main-menu a {
     color: black;
 }
 
-.header-area .main-header .main-menu ul ul.submenu>li>a:hover{
+.header-area .main-header .main-menu a:hover{
     color: var(--hob-main-color);
 }
 

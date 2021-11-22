@@ -13,6 +13,7 @@ import PageNotFound from './components/pageNotFound'
 import React from 'react';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { Link, Route, Switch, Redirect } from 'react-router-dom'
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
 function App() {
   return (
@@ -22,40 +23,29 @@ function App() {
       <header>
         <div className="header-area">
         <div className="main-header header-sticky">
-          <div className="container-fluid">
-            <div className="menu-wrapper d-flex align-items-center justify-content-between">
-              <div className="left-content d-flex align-items-center">
-                <div className="logo">
-                  <a href="index.html"><img src="assets/img/logo/logo.png" alt="" /></a>
-                </div>
-                {/* Main-menu */}
-                <div className="main-menu d-none d-lg-block">
-                  <nav>
-                    <ul id="navigation">            
-                      <li> <Link to="/">Home</Link> </li>
-                      <li> <Link to="/beers">Our Beers</Link> </li>
-                      <li> <Link to="/merch">Merch</Link> </li>
-                      <li> <a>Save the Otters</a>
-                          <ul className="submenu">
-                              <li><a href="https://donate.edf.org/give/371702/" target="_blank" rel="noopener noreferrer" >Enviornmental Defense Fund</a></li>
-                              <li><a href="https://act.nrdc.org/donate/donate-monthly" target="_blank" rel="noopener noreferrer" >National Resources Defense Council</a></li>
-                              <li><a href="https://preserve.nature.org/page/80429/donate/1" target="_blank" rel="noopener noreferrer" >The Nature Conservancy</a></li>
-                          </ul>
-                      </li>                                                                              
-                      <li><a href="mailto:happyotterbrewing@gmail.com">Contact</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>     
-            </div>
-            {/* Mobile Menu */}
-            <div className="col-12">
-              <div className="mobile_menu d-block d-lg-none" />
-
-            </div>
+        <Navbar bg="light" expand="lg">
+          <Container>
+            <Navbar.Brand>
+              <Link to="/"><img className="d-inline-block align-top" height="70px" width="auto" src="assets/img/logo/logo.png" alt="" /></Link>
+            </Navbar.Brand>
+             <Navbar.Toggle aria-controls="basic-navbar-nav" />
+             <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                  <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                  <Nav.Link><Link to="/beers">Our Beers</Link></Nav.Link>
+                  <Nav.Link><Link to="/merch">Merch</Link></Nav.Link>
+                  <NavDropdown title="Save the Otters" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="https://donate.edf.org/give/371702/" target="_blank" rel="noopener noreferrer" >Enviornmental Defense Fund</NavDropdown.Item>
+                    <NavDropdown.Item href="https://act.nrdc.org/donate/donate-monthly" target="_blank" rel="noopener noreferrer" >National Resources Defense Council</NavDropdown.Item>
+                    <NavDropdown.Item href="https://preserve.nature.org/page/80429/donate/1" target="_blank" rel="noopener noreferrer" >The Nature Conservancy</NavDropdown.Item>
+                  </NavDropdown>
+                  <Nav.Link href="mailto:happyotterbrewing@gmail.com">Contact</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
           </div>
         </div>
-      </div>
       </header>
       <main>
         <Switch>
