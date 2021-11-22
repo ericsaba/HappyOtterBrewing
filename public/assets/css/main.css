@@ -6,14 +6,37 @@
     --hop-shadow-color: #2d18a057;
 }
 
+.container {
+    margin-left: 0px;
+}
+
+.header-area .main-header {
+    padding:  0px 40px;
+}
+
+.header-area {
+    background-color: var(--hop-light-background);
+}
+
 .bg-light {
-    background-color: white!important;
+    background-color: var(--hop-light-background)!important;
+}
+
+@media only screen and (max-width: 991px)  {
+    .header-area {
+        box-shadow: rgba(25, 25, 25, 0.1) 0px 0px 0px;
+    }
 }
 
 .header-area a {
     color: rgba(0,0,0,.9);
     font-family: "Quicksand",sans-serif;
     padding-right: 15px;
+}
+
+.header-area a:hover, .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--hob-main-color);
+    font-weight: 550;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -161,4 +184,10 @@ img {
     height: 400px;
     display: flex;
     align-items: center;
+}
+
+#merch-area-wrapper {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }

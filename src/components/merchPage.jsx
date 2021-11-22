@@ -35,7 +35,7 @@ export default function MerchPage(){
             i = i+1;
             var node = document.createElement("div");
             node.setAttribute("id", "collection-component-" + i);
-            document.getElementById('hbhtfdghtrehgtr').appendChild(node);
+            document.getElementById('merch-area-wrapper').appendChild(node);
             createUIComponent();
           }
         }
@@ -47,7 +47,7 @@ export default function MerchPage(){
   });  
 
   return (
-    <div id='hbhtfdghtrehgtr'>
+    <div id='merch-area-wrapper'>
       <div className='section-padding40' id='collection-component-0'></div>
     </div>
   );
