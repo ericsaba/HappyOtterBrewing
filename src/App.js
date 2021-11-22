@@ -24,7 +24,7 @@ function App() {
         <div className="header-area">
         <div className="main-header header-sticky">
         <Navbar bg="light" expand="lg">
-          <Container>
+          <Container id="header-container">
             <Navbar.Brand>
               <Link to="/"><img className="d-inline-block align-top" height="70px" width="auto" src="assets/img/logo/logo.png" alt="" /></Link>
             </Navbar.Brand>
