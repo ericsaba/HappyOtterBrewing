@@ -6,6 +6,10 @@
     --hop-shadow-color: #2d18a057;
 }
 
+.navbar {
+    box-shadow: rgba(25, 25, 25, 0.1) 0px 0px 10px;
+}
+
 #header-container {
     margin-left: 0px;
 }
@@ -25,6 +29,16 @@
 @media only screen and (max-width: 991px)  {
     .header-area {
         box-shadow: rgba(25, 25, 25, 0.1) 0px 0px 0px;
+    }
+}
+
+.section-padding40 {
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .section-padding40 {
+        padding-top: 110px;
     }
 }
 
@@ -131,6 +145,7 @@
 
 .client-say {
     background: var(--hop-light-background);
+    padding-bottom: 0px;
 }
 
 .client-say .client-caption .founder-text span {
@@ -187,7 +202,5 @@ img {
 }
 
 #merch-area-wrapper {
-    margin-top: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 20px 20px;
 }

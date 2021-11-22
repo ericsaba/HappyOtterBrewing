@@ -47,9 +47,19 @@ export default function MerchPage(){
   });  
 
   return (
-    <div id='merch-area-wrapper'>
-      <div className='section-padding40' id='collection-component-0'></div>
-    </div>
+    <section className="section-padding40">
+      <div className="row justify-content-center">
+        <div className="col-xl-6 col-lg-8 col-md-10 col-sm-10">
+          <div className="section-tittle text-center mb-60">
+            <span>Lookin' good ain't easy</span>
+            <h2>Otter merch</h2>
+          </div>
+        </div>
+      </div>
+      <div id='merch-area-wrapper'>
+        <div className='section-padding40' id='collection-component-0'></div>
+      </div>
+    </section>
   );
 
 };
