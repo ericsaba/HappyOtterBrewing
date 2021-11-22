@@ -35,7 +35,7 @@ function App() {
                       <li> <Link to="/">Home</Link> </li>
                       <li> <Link to="/beers">Our Beers</Link> </li>
                       <li> <Link to="/merch">Merch</Link> </li>
-                      <li> <a href="/">Save the Otters</a>
+                      <li> <a>Save the Otters</a>
                           <ul className="submenu">
                               <li><a href="https://donate.edf.org/give/371702/" target="_blank" rel="noopener noreferrer" >Enviornmental Defense Fund</a></li>
                               <li><a href="https://act.nrdc.org/donate/donate-monthly" target="_blank" rel="noopener noreferrer" >National Resources Defense Council</a></li>
@@ -51,6 +51,7 @@ function App() {
             {/* Mobile Menu */}
             <div className="col-12">
               <div className="mobile_menu d-block d-lg-none" />
+
             </div>
           </div>
         </div>

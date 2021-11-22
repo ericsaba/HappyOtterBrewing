@@ -41,6 +41,7 @@
         openedSymbol:'-'
       });
     };
+    $(function () { setTimeout(() => $('#menu').slicknav(), 100); });
 
 
 
