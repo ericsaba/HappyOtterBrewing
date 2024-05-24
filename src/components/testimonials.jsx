@@ -89,7 +89,7 @@ function Testimonials() {
         </div>
         <div className="row justify-content-center">
           {/*check if reviews exists, and if so, render owlcarousel*/}
-          {reviews.length && (
+          {reviews.length > 0 && (
           	<OwlCarousel className="owl-theme" {...owlOptions} >  
                 {reviews.map(review => (
                   <div className="client-caption" key={review.id || review.reviewer}>
